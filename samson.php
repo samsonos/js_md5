@@ -12,4 +12,7 @@ namespace samson\js\md5;
 class SJSMD5Connector extends \samson\core\CompressableExternalModule
 {
 	protected $id = 'md5';	
+	
+	/** Module dependencies */
+	protected $requirements = array('samsonjs');
 }
